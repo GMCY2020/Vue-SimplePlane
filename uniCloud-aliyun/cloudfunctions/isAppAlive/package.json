@@ -1,0 +1,7 @@
+{
+  "name": "isAppAlive",
+  "dependencies": {},
+  "extensions": {
+    "uni-cloud-jql": {}
+  }
+}

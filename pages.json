@@ -1,0 +1,99 @@
+{
+	"pages": [
+		{
+		    "path" : "pages/simplePlane/simplePlane",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": true
+		    }
+		    
+		},{
+            "path" : "pages/class/class",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        },{
+            "path" : "pages/my/my",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	
+	"subPackages": [{
+		"root": "subpkg",
+		"pages": [
+		    {
+	                "path" : "Login/Login",
+	                "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	            }
+	            ,{
+	                "path" : "register/register",
+	                "style" :                                                                                    
+	            {
+	                "navigationBarTitleText": "",
+	                "enablePullDownRefresh": false
+	            }
+	            
+	            }
+	            ,{
+                    "path" : "appUpdateHistory/appUpdateHistory",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+                ,{
+                    "path" : "aboutMe/aboutMe",
+                    "style" :                                                                                    
+                {
+                    "navigationBarTitleText": "",
+                    "enablePullDownRefresh": false
+                }
+                
+                }
+            ]
+		
+	}],
+	
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+		
+	},
+	
+	"uniIdRouter": {},
+	
+	"tabBar" : {
+	    "list" : [
+			{
+			    "pagePath" : "pages/simplePlane/simplePlane",
+			    "text" : "首页"
+			},
+	        {
+	            "pagePath" : "pages/class/class",
+	            "text" : "分类"
+	        },
+	        {
+	            "pagePath" : "pages/my/my",
+	            "text" : "我的"
+	        }
+	    ]
+	}
+}
