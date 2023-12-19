@@ -1,9 +1,7 @@
 'use strict';
 
 const db = uniCloud.database()
-// const dbCmd = db.command;
 const rd = db.collection("RichDaily");
-// const rds = db.collection("RichDailySet");
 
 exports.main = async (events, context) => {
 	let event =  events.queryStringParameters
@@ -30,16 +28,8 @@ exports.main = async (events, context) => {
 		data: JSON.parse(event.data)
 	})
 	
-	// return UserAdd
-	
 	let res = 'err';
 	
-	// if (UserAdd.errMsg === "request:ok) {
-	// 	res = user_id
-	// }
-	// else {
-	// 	res = "err"
-	// }
 	if (UserAdd) {
 		res = user_id
 	}
