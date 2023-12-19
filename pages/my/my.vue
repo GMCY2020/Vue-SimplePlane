@@ -92,8 +92,6 @@
 			<progress :percent="progress" show-info stroke-width="3" />
 		</view>
 	</view>
-
-	<!-- </scroll-view> -->
 </template>
 
 <script>
