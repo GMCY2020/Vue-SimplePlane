@@ -4,6 +4,7 @@
 
 - 作者: GMCY
 - 网站: [简计-手机版](https://static-mp-d58017b5-91a2-424b-b67a-2d55c2720b72.next.bspapp.com)
+- 仓库: [GitHub](https://github.com/GMCY2020/Vue-SimplePlane) | [Gitee](https://gitee.com/GMCY2020/Vue-SimplePlane)
 - 话题(GitHub): [vue](https://github.com/topics/vue)
 - 创建时间: 2022/12/31
 
