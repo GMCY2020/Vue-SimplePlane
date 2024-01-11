@@ -4,7 +4,7 @@ export default {
 	// 数据
 	state: () => ({
 
-		baseUrl: "https://fc-mp-d58017b5-91a2-424b-b67a-2d55c2720b72.next.bspapp.com/",
+		baseUrl: "",
 
 		// 是否登录 0否 1是
 		isLoad: uni.getStorageSync('isLoad') || null,

@@ -37,7 +37,7 @@
 
 	export default {
 		computed: {
-			...mapState('m_sp', ['isLoad', 'user', 'Sys', 'data']),
+			...mapState('m_sp', ['isLoad', 'user', 'Sys', 'data', 'baseUrl']),
 		},
 
 		data() {
